@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Urban Beats</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Urban Beats</a>
+  </div>
+</nav>
+
+<!-- Carrusel -->
+<div id="carrusel" class="carousel slide w-25" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active"><img src="img/1.avif" class="mx-auto d-block h-25 w-50" alt="Concierto 1"></div>
+    <div class="carousel-item"><img src="img/4.jpg" class="mx-auto d-block h-25 w-50" alt="Concierto 2"></div>
+    <div class="carousel-item"><img src="img/3.avif" class="mx-auto d-block h-25 w-50" alt="Concierto 3"></div>
+  </div>
+</div>
+
+<!-- Eventos -->
+<section class="container mt-5">
+  <h2 class="text-center">Próximos Eventos</h2>
+  <div class="row">
+    <div class="col-md-4"><div class="card evento"><img src="img/1.avif" class="card-img-top"><div class="card-body"><h5>Sofo Fest</h5><p>28 abril - Sofo-Temuco</p></div></div></div>
+    <div class="col-md-4"><div class="card evento"><img src="img/4.jpg" class="card-img-top"><div class="card-body"><h5>Bachata y cumbia</h5><p>15 mayo - Caupolicán</p></div></div></div>
+    <div class="col-md-4"><div class="card evento"><img src="img/3.avif" class="card-img-top"><div class="card-body"><h5>Reguetón night</h5><p>5 junio - Movistar Arena</p></div></div></div>
+  </div>
+</section>
+
+<!-- Contacto -->
+<section class="container mt-5 mb-5">
+  <h2 class="text-center">Contáctanos</h2>
+  <form id="contacto" class="mx-auto" style="max-width: 600px;">
+    <input type="text" class="form-control mb-3" placeholder="Nombre" required>
+    <input type="email" class="form-control mb-3" placeholder="Correo" required>
+    <textarea class="form-control mb-3" rows="4" placeholder="Mensaje" required></textarea>
+    <button class="btn btn-primary w-100">Enviar</button>
+  </form>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
